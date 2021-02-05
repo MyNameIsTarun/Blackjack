@@ -39,7 +39,7 @@ public class Hand {
     public void adjustForAce(){
         //If total value > 21 and I still hava an Ace
         //Then change the my Ace to 1 instead of 11
-        while(value > 21 && aces != 0){
+        while(value > 21 && aces > 0){
             value -= 10;
             aces--;
         }
