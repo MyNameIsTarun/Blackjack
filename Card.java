@@ -7,6 +7,9 @@ import java.util.Map;
  *
  * @author Tarun
  */
+
+//This class is used to create Cards 
+//and provide some methods to get Card object attributes
 public class Card {
     //Map(Dictionary) to hold rank and value pairs of cards
     private static final Map<String,Integer> values;
@@ -17,9 +20,9 @@ public class Card {
         values.put("Four",4);values.put("Five",5);
         values.put("Six",6);values.put("Seven",7);
         values.put("Eight",8);values.put("Nine",9);
-        values.put("Ten",10);values.put("Jack",11);
-        values.put("Queen",12);values.put("King",13);
-        values.put("Ace",14);
+        values.put("Ten",10);values.put("Jack",10);
+        values.put("Queen",10);values.put("King",10);
+        values.put("Ace",11);
     }
     
     private final String suit;

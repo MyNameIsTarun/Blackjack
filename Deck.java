@@ -8,6 +8,10 @@ import java.util.List;
  *
  * @author Tarun
  */
+
+//This class is used to create the deck object
+//which consist of 52 card objects
+//and provides some mehods to work on the deck object
 public class Deck {
     
     //arrays for suits and ranks of cards
