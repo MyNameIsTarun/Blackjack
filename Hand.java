@@ -26,6 +26,10 @@ public class Hand {
         cards = new ArrayList();
     }
     
+    public int getValue(){
+        return value;
+    }
+    
     public void addCard(Card card){
         value += card.getValue();
         

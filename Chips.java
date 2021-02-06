@@ -33,7 +33,7 @@ public class Chips {
     }
     
     //reducing bet amount if player loose the game
-    public void looseBet(int bet){
+    public void loseBet(int bet){
         total -= bet;
     }
 }
