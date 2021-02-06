@@ -18,7 +18,7 @@ public class Hand {
     //aces will hold the count of the aces in players Hand
     private int aces;
     //cards list will hold the players hands cards
-    private List<Card> cards;
+    private ArrayList<Card> cards;
     
     public Hand(){
         value = 0;
@@ -28,6 +28,10 @@ public class Hand {
     
     public int getValue(){
         return value;
+    }
+    
+    public ArrayList<Card> getCards(){
+        return cards;
     }
     
     public void addCard(Card card){

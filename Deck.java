@@ -41,7 +41,7 @@ public class Deck {
     }
     
     //this will remove one card from the end of the deck
-    public Card deal_one(){
+    public Card dealOne(){
         return deck.remove(deck.size()-1);
     }
 }
